@@ -1,0 +1,11 @@
+.containerInput{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+
+.containerInput input{
+    padding:10px;
+    border-radius: 5px 5px 5px 5px;
+}
+

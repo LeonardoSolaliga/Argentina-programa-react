@@ -1,0 +1,5 @@
+.notfound{
+    display: flex;
+    height: calc(100vw - 50px);
+    justify-content: center;
+}
