@@ -1,3 +1,8 @@
+
+a{
+    text-decoration: none;
+    color:white
+}
 header{
     z-index: 3;
     position: sticky;
@@ -27,26 +32,23 @@ header{
     transition: all .5 ease;
     transform: translate(-600px);
 }
-.urldecoration:visited{
-    color:white;
-}
 .cont-menu ul{
     padding: 100px 0px 20px 0px;
     list-style: none;
 }
 
 .cont-menu ul li{
-    color: white;
     display: block;
     font-size: 25px;
     text-decoration: none;
     padding: 10px 50px;
     cursor:pointer;
 }
-
+.cont-menu a{
+    display: block;
+}
 .cont-menu ul li:hover{
-    background-color: rgb(228, 228, 228);
-    color:black !important;
+    background-color: rgb(85, 74, 22);
 }
 #boton-check:checked ~ .cont-menu{
     position: fixed;

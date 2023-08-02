@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom"
 import logo from "../../assets/logo/logo.png"
 import "./style.css"
 
@@ -14,24 +13,24 @@ const nav = () => {
             <i className="fas fa-bars"></i>
           </label>
           <input type="checkbox" id="boton-check" />
-          <img src={logo} alt="logo misotronica" />
+          <a href="/"><img src={logo} alt="logo misotronica"/></a>
           <div className='cont-menu' id='menu'>
             <ul>
-                <li>
-                  <Link to="/" className='urldecoration'>Home</Link>
-                </li>
-                <li>
-                  <Link to="/products" className='urldecoration'>Productos</Link>
-                </li>
-                <li>
-                  <Link to="/nosotros" className='urldecoration'>Nosotro</Link>
-                </li>
-                <li>
-                  <Link to="/contacto" className='urldecoration'>Contacto</Link>
-                </li>
+              <li>
+                <a href='/'>Home</a>
+              </li>
+              <li>
+                <a href="/products">Productos</a>
+              </li>
+              <li>
+                <a href="/nosotros">Nosotros</a>
+              </li>
+              <li>
+                <a href="/contacto">Contacto</a>
+              </li>
             </ul>
           </div>
-          
+
         </nav>
       </header >
     </>

@@ -10,7 +10,7 @@ const Product = ({ producto }) => {
         </div>
         <div className="product-details">
           <h4>{producto.nombre}</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+          <p>{producto.descripcion}</p>
           <div className="product-bottom-details">
             <div className="product-price">${producto.precio}</div>
           </div>

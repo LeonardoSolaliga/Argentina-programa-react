@@ -5,7 +5,7 @@ import "./style.css"
 
 const ContainerProduct = () => {
     const [products, setProduct] = useState([]);
-    const [productosBuscados,setProductosBuscados]=useState([])
+    const [productosBuscados, setProductosBuscados] = useState([])
     const [busqueda, setBusqueda] = useState([]);
     const handleChange = e => {
         setBusqueda(e.target.value)
@@ -16,7 +16,7 @@ const ContainerProduct = () => {
             if (elemento.nombre.toLowerCase().includes(productoBuscado.toLowerCase())
             ) {
                 return elemento;
-            }else{
+            } else {
                 return null;
             }
         });
@@ -29,6 +29,10 @@ const ContainerProduct = () => {
 
     return (
         <main>
+            <div className='titulo-productos'>
+                <h2>Nuestros productos</h2>
+            </div>
+
             <div className="containerInput">
                 <input
                     value={busqueda}

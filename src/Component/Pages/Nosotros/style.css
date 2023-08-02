@@ -1,0 +1,62 @@
+.Nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Nosotros h2{
+    color: rgb(155, 130, 7);
+    padding: 30px 0px;
+}
+.parrafocentrado{
+    padding: 30px 30px;
+    text-align: center;
+    width: 50%;
+}
+
+.flex-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(218, 204, 139);
+    padding: 0px 50px;
+}
+.flex-servicios div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.flex-servicios div div{
+    padding: 0px 20px;
+}
+.subtitutlo{
+    display: flex;
+    justify-content: center;
+}
+.flex-servicios div img{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    padding: 20px 0px;
+}
+@media (max-width: 1292px) {
+    .flex-servicios div{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+  }
+
+@media (max-width: 530px) {
+
+    .flex-servicios div img{
+        width: 300px;
+        height: 240px;
+    }
+    .flex-servicios div{
+        width: 100%;
+    }
+  }

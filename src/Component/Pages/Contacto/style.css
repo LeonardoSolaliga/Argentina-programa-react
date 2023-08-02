@@ -1,0 +1,60 @@
+
+.titulo-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.formularios{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario-centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.formulario-centrar input{
+    width: 40%;
+    padding:10px;
+    border-radius: 5px 5px 5px 5px;
+}
+.formulario-centrar textarea{
+    width: 30%;
+    padding:10px;
+    border-radius: 5px 5px 5px 5px;
+}
+.input-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-submit input{
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.input-submit button{
+    padding: 15px;
+    margin:20px;
+    border-radius: 5px;
+}
+@media (max-width: 1292px) {
+    .formulario-centrar input{
+        width: 70%;
+        padding:10px;
+        border-radius: 5px 5px 5px 5px;
+    }
+}
+@media (max-width: 530px) {
+
+    .formulario-centrar input{
+        width: 90%;
+        padding:10px;
+        border-radius: 5px 5px 5px 5px;
+    }
+  }
