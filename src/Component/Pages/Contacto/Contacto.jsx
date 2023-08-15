@@ -72,7 +72,7 @@ const Contacto = () => {
           <div className='formulario-centrar'>
             <label className='text' htmlFor="contenido">Consulta: </label>
             <textarea
-              name="contenido" cols={60} rows={10}
+              name="contenido"
               placeholder='escriba su consulta'
               onBlur={handleBlur}
               onChange={handleChange}

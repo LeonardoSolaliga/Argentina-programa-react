@@ -14,13 +14,12 @@ const Home = () => {
       <div className='direccion-tel'>
         <div>
           <FaMapLocationDot size={42}/>
-          <p>direccion: Av. Constitución 1100, N3364 San Vicente, Misiones</p>
+          <p>dirección: Av. Constitución 1100, N3364 San Vicente, Misiones</p>
         </div>
         <div>
           <FaPhone size={42}/>
-          <p>telefono: 03755832319</p>
+          <p>Teléfono: 03755832319</p>
         </div>
-        
       </div>
     </section>
   )

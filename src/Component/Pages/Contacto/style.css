@@ -24,7 +24,7 @@
     border-radius: 5px 5px 5px 5px;
 }
 .formulario-centrar textarea{
-    width: 30%;
+    width: 40%;
     padding:10px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -49,10 +49,20 @@
         padding:10px;
         border-radius: 5px 5px 5px 5px;
     }
+    .formulario-centrar textarea{
+        width: 70%;
+        padding:10px;
+        border-radius: 5px 5px 5px 5px;
+    }
 }
 @media (max-width: 530px) {
 
     .formulario-centrar input{
+        width: 90%;
+        padding:10px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .formulario-centrar textarea{
         width: 90%;
         padding:10px;
         border-radius: 5px 5px 5px 5px;

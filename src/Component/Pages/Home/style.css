@@ -1,5 +1,5 @@
 .banner{
-    width: 100%;
+    width: 100vw;
     height: 80vh;
 }
 .banner img{
@@ -11,7 +11,7 @@
 .banner h1{
     width: 100%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
     bottom:200px;
     background-color: rgba(179, 179, 108, 0.623);
@@ -21,7 +21,6 @@
 .direccion-tel{
     display:flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: row;
 }
 .direccion-tel div{
@@ -35,6 +34,6 @@
 }
 @media (max-width: 530px) {
     .direccion-tel{
-        display:block;
+        flex-direction: column;
     }
 }
